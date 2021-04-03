@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineering Team Page</title>
+    <style>
+        header {
+            width: auto; 
+            height: 200px;
+            background-color: burlywood;
+        }
+        h1 {
+            text-align: center;
+            padding-top: 80px; 
+        }
+        #container{
+            border: thin solid black; 
+            display: flex; 
+            flex-flow: row wrap; 
+            justify-content: center;
+            align-items: baseline;
+        }
+        .card {
+            border: thin solid black; 
+            margin: 5px;
+            display: flex; 
+            flex-flow: column nowrap;
+            background-color: cadetblue;
+
+        }
+    </style>
+</head>
+<body>
+    <header id="team">
+        <h1>Software Engineering Team</h1>
+    </header>
+    <div id="container">
+    <div class="card">
+        <h2>Test Name</h2>
+        <h3>Project Development Lead</h3>
+        <!--name, role as a HEADER then: id, email, role-specific options <h2>-->
+        <!--dynamic rendering, boxes wrap horizontal within body of another div <h3>-->
+    </div>
+    <div id="test">
+        <h2>Test Name</h2>
+        <h3>Lead Project Engineer</h3>
+    </div>
+    </div>
+    
+</body>
+</html>

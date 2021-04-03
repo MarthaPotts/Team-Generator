@@ -13,6 +13,7 @@ class Employee {
     getEmail(){
      return this; 
     }
+    //let managerRole = () => {return Employee;} ?
     getRole(){
         //returns employee
         return Employee; 
@@ -20,20 +21,27 @@ class Employee {
 }
 
 class Manager extends Employee {
-    this.officeNumber = officeNumber; 
+    constructor(name, id, email, officeNumber){
+    super(name, id, email); 
+    }
     getRole(){
         return Manager; 
     }
 }
 class Engineer extends Employee {
-    this.githubUserName = githubUserName; 
+    constructor(name, id, email, githubUserName){
+        super(name, id, email); 
+    }
+    getRole()
 }
 class Intern extends Employee {
-    this.school = school; 
+    constructor(name, id, email, githubUserName, school){
+    super(name, id, email)
+    }
     getSchool(school){
         return school; 
-        getRole(){
-            return Intern; 
-        }
+    }
+    getRole(){
+        return Intern; 
     }
 }
