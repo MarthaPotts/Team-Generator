@@ -37,6 +37,7 @@ class Engineer extends Employee {
 class Intern extends Employee {
     constructor(name, id, email, githubUserName, school){
     super(name, id, email)
+    this.shcool = school;
     }
     getSchool(school){
         return school; 
