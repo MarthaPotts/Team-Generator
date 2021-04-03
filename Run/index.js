@@ -1,7 +1,7 @@
 //requireD
 const inquirer = require('inquirer'); 
 //prompt! to enter Team Manager info//
-addManager(){
+function addManager(){
     inquirer.prompt([
         //questions here type, name, message,...
         {
@@ -39,7 +39,7 @@ addManager(){
 
 //Menu: option: addEngineer()? addIntern()? finishTeam()?
 
-addEngineer(){
+function addEngineer(){
     inquirer.prompt([
         {
         type: 'input',
@@ -74,10 +74,10 @@ addEngineer(){
 }); 
 }
 
-//returnToMenu(){}
+//returnToMenu(){}//{type: checkbox} ?[Engineer, Intern, Finish] true = () =>
 
 //questions/answers/error parameters?
-addIntern(){
+function addIntern(){
     inquirer.prompt([
         {
             type: 'input', 
