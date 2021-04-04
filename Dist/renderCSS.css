@@ -1,0 +1,23 @@
+header {
+    width: auto; 
+    height: 200px;
+    background-color: burlywood;
+}
+h1 {
+    text-align: center;
+    padding-top: 80px; 
+}
+#container{
+    border: thin solid black; 
+    display: flex; 
+    flex-flow: row wrap; 
+    justify-content: center;
+    align-items: baseline;
+}
+.card {
+    border: thin solid black; 
+    margin: 5px;
+    display: flex; 
+    flex-flow: column nowrap;
+    background-color: cadetblue;
+}
