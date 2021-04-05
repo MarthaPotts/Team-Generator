@@ -169,7 +169,6 @@ async function determineCount(employees){
 }
 
 inquirer.prompt([
-    //questions here type, name, message,...
     {
         type: 'input', 
         name: 'teamManager', 
@@ -195,6 +194,6 @@ inquirer.prompt([
     const employees = [];
     const manager = new Manager(answers.teamManager, answers.teamMgrId, answers.teamMgrEmail, answers.teamMgrOffice);
     employees.push(manager);
-    console.log(employees);
+    //console.log(employees);
     determineCount(employees);
 })

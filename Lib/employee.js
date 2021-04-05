@@ -13,9 +13,7 @@ class Employee {
     getEmail(){
      return this.email; 
     }
-    //let managerRole = () => {return Employee;} ?
     getRole(){
-        //returns employee
         return "Employee"; 
     }
 }

@@ -1,0 +1,1 @@
+//should create new instance subclass of employee with additional property of school and getSchool()
